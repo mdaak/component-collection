@@ -1,0 +1,29 @@
+.nav {
+  height: 80px;
+  background-color: #000;
+}
+.logo {
+  float: left;
+  width: 30%;
+  line-height: 80px;
+  color: #fff;
+}
+
+.navItem {
+  float: right;
+  float: top;
+  color: red;
+  display: flex;
+  line-height: 80px;
+  width: 70%;
+  text-align: center;
+  justify-content: flex-end;
+}
+.navItem li {
+  margin-left: 6vw;
+  font-size: clamp(1.5rem 6vw 3rem);
+  color: #ffff;
+}
+.navItem li a {
+  color: #ffff;
+}
